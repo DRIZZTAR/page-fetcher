@@ -27,7 +27,6 @@ http.get(url, (conn) => {
   // Handle errors that occur during the HTTP request
   console.log("Error: " + err.message);
 });
-
 // Expected output:
 // $ node fetcher.js http://www.example.edu/ ./index.html
 // Downloaded and saved 3261 bytes to ./index.html
